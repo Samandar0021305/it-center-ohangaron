@@ -1,0 +1,16 @@
+.navbar{
+    background: #313CB0;
+    padding: 10px 20px;
+    &__box{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__list{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 60%;
+    }
+}
+
