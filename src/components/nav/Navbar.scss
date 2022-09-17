@@ -1,6 +1,13 @@
 .navbar{
     background: #313CB0;
     padding: 10px 20px;
+    &__toogle{
+       
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        display: none;
+    }
     &__box{
         display: flex;
         justify-content: space-between;
@@ -12,5 +19,27 @@
         align-items: center;
         width: 60%;
     }
+   
 }
 
+
+
+@media (max-width:991px){
+    .navbar{
+        padding: 10px 0;
+        &__list{
+            width: 70%;
+        }
+    }
+}
+
+@media (max-width:717px){
+    .navbar{
+        &__list{
+            display: none;
+        }
+        &__toogle{
+            display: flex;
+        }
+    }
+}
